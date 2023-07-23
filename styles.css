@@ -1,0 +1,330 @@
+.container {
+  background-color: #f8f1f1;
+  border: 1px solid black;
+  padding: 40px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container img {
+  display: inline-block;
+  max-width: 163.86px;
+  max-height: 47.83px;
+}
+.container ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.container ul li {
+  margin-right: 80px;
+}
+.container ul li:last-child {
+  margin-right: 0;
+}
+.container ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.container .line {
+  height: 0.5px;
+  background-color: rgba(0, 0, 0, 0.477);
+  border: none;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.container .inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .left-container,
+.container .right-container {
+  width: 50%;
+}
+.container .left-container {
+  padding-right: 30px;
+}
+.container .left-container h2 {
+  margin-top: 75px;
+  font-size: 32px;
+  text-align: left;
+}
+.container .left-container p {
+  margin-top: 20px;
+  color: #333;
+  font-size: 14px;
+  text-align: left;
+}
+.container .right-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container .curved-button {
+  margin-right: 260px;
+  margin-top: 75px;
+  display: inline-block;
+  padding: 8px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgba(59, 56, 56, 0.4);
+}
+.container h3 {
+  margin-top: 150px;
+}
+.container .main-container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .sub-container {
+  flex-basis: 30%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 10px rgba(59, 56, 56, 0.4);
+}
+.container .sub-container h1 {
+  margin-top: 0;
+  font-size: 15px;
+  text-align: center;
+}
+.container .sub-container p {
+  margin-bottom: 0;
+  font-size: 10px;
+  text-align: left;
+  color: #312e2e;
+}
+.container .main0-container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.container .sub1-container {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 40px;
+}
+.container .sub1-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container .sub1-container h1 {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+.container .sub1-container p {
+  margin-bottom: 0;
+  font-size: 10px;
+  text-align: left;
+  color: #312e2e;
+}
+.container .sub2-container {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 40px;
+}
+.container .sub2-container img {
+  max-width: 200px;
+  max-height: 140px;
+}
+.container .sub2-container h1 {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: left;
+}
+.container .sub2-container p {
+  margin-bottom: 0;
+  font-size: 10px;
+  text-align: left;
+  color: #312e2e;
+}
+.container .main3-container {
+  display: flex;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: auto;
+}
+.container .sub33-container {
+  width: 20%;
+  padding: 0;
+}
+.container .sub33-container img {
+  max-width: 80%;
+  max-height: 80%;
+}
+.container .sub34-container {
+  width: 80%;
+  padding: 0;
+}
+.container .sub34-container h1 {
+  font-family: Nunito Sans, Bold;
+  margin-top: 18px;
+  font-size: 18px;
+  margin-left: 10px;
+  text-align: left;
+}
+.container .h4-container {
+  display: flex;
+  width: 50%;
+  font-family: Nunito Sans, Regular;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+.container .h4-button {
+  margin-right: 260px;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 12px 37px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 12px 15px rgba(59, 56, 56, 0.4);
+}
+.container .main4-container {
+  display: flex;
+  width: 40%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.container .sub40-container {
+  width: 20%;
+  padding: 0;
+}
+.container .sub40-container img {
+  margin-right: 15px;
+  max-width: 80%;
+  max-height: 80%;
+}
+.container .sub41-container {
+  width: 80%;
+  padding: 0;
+}
+.container .sub41-container h1 {
+  font-family: Nunito Sans, Bold;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-right: 100px;
+  text-align: right;
+}
+.container .h5-container {
+  display: flex;
+  width: 40%;
+  font-family: Nunito Sans, Regular;
+  text-align: left;
+  font-size: 16px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.container .h5-button {
+  margin-right: 150px;
+  margin-top: 18px;
+  display: inline-block;
+  padding: 12px 37px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 12px 15px rgba(59, 56, 56, 0.4);
+}
+.container .zero-container {
+  flex-basis: 100%;
+  width: 900px;
+  height: 300px;
+  background-color: rgb(225, 222, 226);
+  border-radius: 40px;
+  box-shadow: 0 8px 10px rgba(59, 56, 56, 0.4);
+}
+.container .in-container {
+  display: flex;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: auto;
+}
+.container .zero1-container {
+  width: 20%;
+  padding: 0;
+  margin-top: 20px;
+}
+.container .zero1-container img {
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 15px;
+}
+.container .zero2-container {
+  width: 80%;
+  padding: 0;
+  margin-top: 30px;
+}
+.container .zero2-container h1 {
+  font-family: Nunito Sans, Bold;
+  margin-top: 4px;
+  font-size: 25px;
+  margin-left: 1px;
+  text-align: left;
+}
+.container .img-container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.container .img1-container {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 40px;
+}
+.container .img1-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container .img1-container h1 {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center;
+}
+.container .img2-container {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 40px;
+}
+.container .img2-container img {
+  max-width: 80%;
+  max-height: 80%;
+}
+.container .img2-container h1 {
+  margin-top: 2px;
+  font-size: 15px;
+  text-align: center;
+}
+.container .img3-container {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 40px;
+}
+.container .img3-container img {
+  max-width: 50%;
+  max-height: 50%;
+}
+.container .img3-container h1 {
+  margin-top: 17px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

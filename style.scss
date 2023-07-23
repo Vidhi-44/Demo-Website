@@ -1,0 +1,414 @@
+$box-color: rgba(0, 0, 0, 0.162);
+$box-width: 1000px;
+$border-width: 1px;
+$padding-size: 40px;
+$nav-item-spacing: 80px;
+$line-height: 0.5px;
+$line-color: rgba(0, 0, 0, 0.477);
+$container-spacing: 30px;
+$text-color: #333;
+$text-size: 14px;
+$curve-radius: 20px;
+$button-background: #007bff; // Blue color
+$button-color: #fff;
+$button-padding: 8px 25px;
+$button-shadow: 0 8px 10px rgba(59, 56, 56, 0.4); // Shadow style
+$sub-bg-color: #fff;
+$border-color: #ccc;
+$main-bg-color: #f0f0f0;
+
+
+
+
+
+.container {
+    background-color: #f8f1f1;
+    border: $border-width solid black;
+    padding: $padding-size;
+    width: $box-width;
+    margin: 0 auto;
+    text-align: center;
+
+    img {
+        display: inline-block;
+        max-width: 163.86px;
+        max-height: 47.83px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin-right: $nav-item-spacing;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+
+    .line {
+        height: $line-height;
+        background-color: $line-color;
+        border: none;
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+    .inner-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-container,
+    .right-container {
+        width: 50%;
+    }
+
+    .left-container {
+        padding-right: $container-spacing;
+
+
+        h2 {
+            margin-top: 75px;
+            font-size:  32px;
+            text-align: left;
+        }
+
+        p {
+            margin-top: 20px;
+            color: $text-color;
+            font-size: $text-size;
+            text-align: left;
+        }
+    }
+
+    .right-container {
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .curved-button {
+        margin-right: 260px ;
+        margin-top: 75px;
+        display: inline-block;
+        padding: $button-padding;
+        background-color: $button-background;
+        color: $button-color;
+        border-radius: $curve-radius;
+        border: none;
+        cursor: pointer;
+        box-shadow: $button-shadow; // Add box shadow style
+
+    }
+
+        h3{
+            margin-top: 150px;
+        }
+        .main-container {
+
+            padding: $padding-size;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .sub-container {
+            flex-basis: 30%; // Adjust the width of the sub-containers as per your requirements
+            background-color: $sub-bg-color;
+            border: $border-width solid $border-color;
+            border-radius: $curve-radius;
+            padding: $padding-size;
+            box-shadow: 0 8px 10px rgba(59, 56, 56, 0.4);
+
+
+            h1 {
+                margin-top: 0;
+                font-size:  15px;
+                text-align: center;
+            }
+
+            p {
+                margin-bottom: 0;
+                font-size:  10px;
+                text-align: left;
+                color: #312e2e;
+            }
+        }
+        .main0-container {
+
+            padding: $padding-size;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .sub1-container {
+            flex-basis: 30%; // Adjust the width of the sub-containers as per your requirements
+            background-color: $sub-bg-color;
+            padding: $padding-size;
+
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            h1 {
+
+                margin-top: 20px;
+                font-size:  15px;
+                text-align: left;
+            }
+
+            p {
+                margin-bottom: 0;
+                font-size:  10px;
+                text-align: left;
+                color: #312e2e;
+            }
+        }
+            .sub2-container {
+                flex-basis: 30%; // Adjust the width of the sub-containers as per your requirements
+                background-color: $sub-bg-color;
+                padding: $padding-size;
+
+                img{
+                    max-width: 200px;
+                    max-height: 140px;
+                }
+
+                h1 {
+                    margin-top: 15px;
+                    font-size:  15px;
+                    text-align: left;
+                }
+
+                p {
+                    margin-bottom: 0;
+                    font-size:  10px;
+                    text-align: left;
+                    color: #312e2e;
+                }
+        }
+
+        .main3-container {
+            display: flex;
+            width: 50%;
+            margin-top: 50px;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .sub33-container {
+            width: 20%; // Adjust the width of the sub-containers as per your requirements
+            padding: 0;
+
+            img{
+                max-width: 80%;
+                max-height: 80%;
+            }
+
+        }
+        .sub34-container {
+            width: 80%; // Adjust the width of the sub-containers as per your requirements
+            padding: 0;
+
+            h1 {
+                font-family: Nunito Sans, Bold;
+                margin-top: 18px;
+                font-size:  18px;
+                margin-left: 10px;
+                text-align: left;
+            }
+
+        }
+        .h4-container {
+            display: flex;
+            width: 50%;
+            font-family: Nunito Sans, Regular;
+            text-align: left;
+            font-size: 16px;
+            margin-left: 10px;
+            margin-right: auto;
+        }
+
+        .h4-button {
+            margin-right: 260px ;
+            margin-top: 15px;
+            display: inline-block;
+            padding: 12px 37px;
+            background-color: $button-background;
+            color: $button-color;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 12px 15px rgba(59, 56, 56, 0.4); // Shadow stylee
+        }
+        .main4-container {
+            display: flex;
+            width: 40%;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .sub40-container {
+            width: 20%; // Adjust the width of the sub-containers as per your requirements
+            padding: 0;
+
+            img{
+                margin-right: 15px;
+                max-width: 80%;
+                max-height: 80%;
+            }
+
+        }
+        .sub41-container {
+            width: 80%; // Adjust the width of the sub-containers as per your requirements
+            padding: 0;
+
+            h1 {
+                font-family: Nunito Sans, Bold;
+                margin-top: 10px;
+                font-size:  18px;
+                margin-right: 100px;
+                text-align: right;
+            }
+
+        }
+        .h5-container {
+            display: flex;
+            width: 40%;
+            font-family: Nunito Sans, Regular;
+            text-align: left;
+            font-size: 16px;
+            margin-right: 0px;
+            margin-left: auto;
+        }
+
+        .h5-button {
+            margin-right: 150px ;
+            margin-top: 18px;
+            display: inline-block;
+            padding: 12px 37px;
+            background-color: $button-background;
+            color: $button-color;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 12px 15px rgba(59, 56, 56, 0.4); // Shadow stylee
+        }
+
+        .zero-container{
+            flex-basis: 100%;
+            width: 900px;
+            height: 300px;
+            background-color: rgb(225, 222, 226);
+            border-radius: 40px;
+            box-shadow: 0 8px 10px rgba(59, 56, 56, 0.4);
+
+        }
+
+        .in-container{
+            display: flex;
+            width: 50%;
+            margin-top: 50px;
+            margin-left: 0;
+            margin-right: auto;
+
+        }
+
+        .zero1-container {
+            width: 20%; // Adjust the width of the sub-containers as per your requirements
+            padding: 0;
+            margin-top: 20px;
+
+            img{
+                max-width: 80%;
+                max-height: 80%;
+                margin-left: 15px;
+            }
+
+        }
+        .zero2-container {
+            width: 80%; // Adjust the width of the sub-containers as per your requirements
+            padding: 0;
+            margin-top: 30px;
+
+            h1 {
+                font-family: Nunito Sans, Bold;
+                margin-top: 4px;
+                font-size:  25px;
+                margin-left: 1px;
+                text-align: left;
+            }
+   }
+   .img-container {
+
+    padding: $padding-size;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.img1-container {
+    flex-basis: 30%; // Adjust the width of the sub-containers as per your requirements
+    background-color: $sub-bg-color;
+    padding: $padding-size;
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    h1 {
+
+        margin-top: 25px;
+        font-size:  15px;
+        text-align: center;
+    }
+}
+.img2-container {
+    flex-basis: 30%; // Adjust the width of the sub-containers as per your requirements
+    background-color: $sub-bg-color;
+    padding: $padding-size;
+
+    img{
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    h1 {
+
+        margin-top: 2px;
+        font-size:  15px;
+        text-align: center;
+    }
+}
+.img3-container {
+    flex-basis: 30%; // Adjust the width of the sub-containers as per your requirements
+    background-color: $sub-bg-color;
+    padding: $padding-size;
+
+    img{
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    h1 {
+
+        margin-top: 17px;
+        font-size:  15px;
+        text-align: center;
+    }
+    }
+
+}
